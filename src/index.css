@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .backface-hidden {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+  
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+}
+
+:root {
+  --tg-theme-bg-color: #fff;
+  --tg-theme-text-color: #000;
+  --tg-theme-hint-color: #999;
+  --tg-theme-link-color: #2678b6;
+  --tg-theme-button-color: #2678b6;
+  --tg-theme-button-text-color: #fff;
+  --tg-theme-secondary-bg-color: #f0f0f0;
+}
